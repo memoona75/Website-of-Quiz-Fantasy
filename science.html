@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Science Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io (2)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io (2)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io (2)/favicon-16x16.png">
+<link rel="manifest" href="images/favicon_io (2)/site.webmanifest">
+    <script>
+        window.jQuery || document.write('<script src="http://mysite.com/jquery.min.js"><\/script>')
+        </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>   
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+
+    <script type="text/javascript" src="science.js"></script>
+</head>
+<body>
+
+
+    <div class="quiz-container">
+        <div class="welcome-screen">
+            <h1>Welcome to the Quiz</h1>
+            <img src="images/0c024fd7e55c5dbc1c1900b5467498eb-removebg-preview.ico" alt="">
+            <button id="start-button">Start Quiz</button>
+        </div>
+       
+        <div class="quiz-screen" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="question-container">
+                <h2 class="question"></h2>
+                <div class="options">
+                    <button class="option" data-answer="0"></button>
+                    <button class="option" data-answer="1"></button>
+                    <button class="option" data-answer="2"></button>
+                    <button class="option" data-answer="3"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result-screen" style="display: none;">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button id="restart-button">Restart Quiz</button>
+        </div>
+    </div>
+</body>
+</html> 
+
+
+
+
+
+    
+
+    

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-Quiz Fantasy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io (2)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io (2)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io (2)/favicon-16x16.png">
+<link rel="manifest" href="images/favicon_io (2)/site.webmanifest">
+</head>
+<body>
+    <main>
+        <section id="contact-us">
+            <h1>Contact Us</h1>
+            <div class="contact-container">
+                <div class="member">
+                    <img src="images/memoona.jpeg" alt="Memoona Mehwish">
+                    <h2>Memoona Mehwish</h2>
+                    <p>Lead Developer</p>
+                    <p>memoona@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/memoona"><img src="images/social-facebook.svg" alt=""></a>
+                        <a href="https://twitter.com/memoona"><img src="images/social-tweeter.svg" alt=""></a>
+                        <a href="https://linkedin.com/in/memoona"><img src="images/social-instagram.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/aqeela.jpeg" alt="Aqeela Batool">
+                    <h2>Aqeela Batool</h2>
+                    <p>Assistant Developer</p>
+                    <p>aqeela@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/aqeela"><img src="images/social-facebook.svg" alt=""></a>
+                        <a href="https://twitter.com/aqeela"><img src="images/social-tweeter.svg" alt=""></a>
+                        <a href="https://linkedin.com/in/aqeela"><img src="images/social-instagram.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="images/sobia.jpeg" alt="Sobia Naz">
+                    <h2>Sobia Naz</h2>
+                    <p>Supporting Developer</p>
+                    <p>sobia@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/sobia"><img src="images/social-facebook.svg" alt=""></a>
+                        <a href="https://twitter.com/sobia"><img src="images/social-tweeter.svg" alt=""></a>
+                        <a href="https://linkedin.com/in/sobia"><img src="images/social-instagram.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form">
+                <h2>Get in Touch</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="links-container">
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="developers.html">Our Developers</a></li>
+                        <li><a href="company.html">Our Company</a></li>
+                        <li><a href="terms.html">Terms and Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="links">
+                    <h3>Quiz Categories</h3>
+                    <ul>
+                        <li><a href="general knowledge.html">General Knowledge</a></li>
+                        <li><a href="computer.html">Computer Science</a></li>
+                        <li><a href="math.html">Maths</a></li>
+                        <li><a href="english.html">English</a></li>
+                        <li><a href="IQ test.html">IQ Test</a></li>
+                        <li><a href="science.html">Science</a></li>
+                    </ul>
+                </div>
+    
+                <div class="links">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            <img src="images/envelope-svgrepo-com.svg" height="16px" width="16px" alt="Email Icon" class="icon">
+                            <a href="mailto:QuizFantasy@gmail.com">QuizFantasy@gmail.com</a>
+                        </li>
+                        <li>
+                            <img src="images/phone-call-svgrepo-com.svg" height="16px" width="16px" alt="Phone Icon" class="icon">
+                            +923012345678
+                        </li>
+                        <li>
+                            <img src="images/fax-free-5-svgrepo-com.svg" alt="Fax Icon" height="16px" width="16px" class="icon">
+                          +0987654321
+                        </li>
+                        <li>
+                            <img src="images/address-card-svgrepo-com.svg" alt="Address Icon" height="16px" width="16px" class="icon">
+                            Thal University Bhakkar
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <a href="#"><img src="images/social-facebook.svg" alt="Facebook" /></a>
+                        <a href="#"><img src="images/social-instagram.svg" alt="Instagram" /></a>
+                        <a href="#"><img src="images/social-tweeter.svg" alt="Instagram" /></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Quiz Fantasy, All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for your message!');
+            this.reset(); // Reset the form
+        });
+    </script>
+</body>
+</html>
